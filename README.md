@@ -1,6 +1,9 @@
 # Pokemon Cellular Automata Simulation
 
-Welcome to the Pokemon Cellular Automata Simulation! This project demonstrates the principles of cellular automata through the interactions of Pokémon on a hexagonal grid.
+**Things learnt/applied** - Python, Cellular Automata Simulation, Pygame, Pattern-Visualization.
+
+## The Idea
+Welcome to the Pokemon Cellular Automata Simulation! This project demonstrates the principles of cellular automata through the interactions of Pokemon on a hexagonal grid.
 
 ![Startgame3](https://github.com/user-attachments/assets/4142380c-986c-47ff-9216-a708441eb169)
 
