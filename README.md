@@ -84,7 +84,7 @@ python Pokemon.py
 ![endgame2](https://github.com/user-attachments/assets/7f4808e4-53d1-4633-943c-185d9755e275)
 *3 type structure with infinitely changing patterns*
 
-This type of structure is observed when each of the 3 types remaining can overpower only one of the  remaining 2 types i.e. "each one, defeat one" creating a triangular overpowering cycle resulting in an infinite loop where the simulation never ends as none of the 3 can completely win. The pattern that is created by 3 type structure's pokemon's capturing of cells shows movement across the complete hexagonal mesh till the simulation is stopped. This time of patterns that move across the cell have been termed as **spaceships** in **Conway's Game of Life**.
+This type of structure is observed when each of the 3 types remaining can overpower only one of the  remaining 2 types i.e. "each one, defeat one" creating a triangular overpowering cycle resulting in an infinite loop where the simulation never ends as none of the 3 can completely win. The pattern that is created by 3 type structure's pokemon's capturing of cells shows movement across the complete hexagonal mesh till the simulation is stopped. This type of patterns that move across the cell have been termed as **spaceships** in **Conway's Game of Life**.
 
 
 ![endgame1](https://github.com/user-attachments/assets/e4d6a3be-3dc9-4588-b179-c42f8654a763)
