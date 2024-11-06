@@ -17,6 +17,7 @@ One of the most famous examples of CA system is Conway's Game of Life which simu
 This simulation models a grid-based world where Pokemon of different types interact according to predefined rules. 
 
 ![startgame1](https://github.com/user-attachments/assets/a7bc119b-afde-4d64-98ae-145c30a3dec0)
+
 *This is how the simulation starts with random placement of each type in any cell*
 
 Each Pokemon type has strengths and weaknesses, leading to dynamic and emergent behaviors as they move and compete for dominance. Each pokemon represents one type(written inside the hexagon) and can overpower exactly the 2 types written outside of the hexagon.
@@ -82,22 +83,26 @@ python Pokemon.py
 **Some of the Structures and Patterns observed**
 
 ![endgame2](https://github.com/user-attachments/assets/7f4808e4-53d1-4633-943c-185d9755e275)
+
 *3 type structure with infinitely changing patterns*
 
 This type of structure is observed when each of the 3 types remaining can overpower only one of the  remaining 2 types i.e. "each one, defeat one" creating a triangular overpowering cycle resulting in an infinite loop where the simulation never ends as none of the 3 can completely win. The pattern that is created by 3 type structure's pokemon's capturing of cells shows movement across the complete hexagonal mesh till the simulation is stopped. This type of patterns that move across the cell have been termed as **spaceships** in **Conway's Game of Life**.
 
 
 ![endgame1](https://github.com/user-attachments/assets/e4d6a3be-3dc9-4588-b179-c42f8654a763)
+
 *2 type structure creating Still lifes i.e. Stable patterns*
 
 This structure is seen when any 2 pokemon types that cannot overpower each other (refer the power structure image given above) remains at the end. For e.g the fire type and electric type cannot overpower each other so they together will takeout any other that is remaining and if only this 2 remain at the end the simulation is stopped. As in this type of structure the pattern do not change over time this type of stable patterns are called as **Still Lifes** in **Conway's Game of Life**.
 
 ![endgame3](https://github.com/user-attachments/assets/4887302c-9aff-4070-96c6-2e2488ee99ac)
+
 *Moving towards a Single-type structure*
 
 This happens when the only one type of pokemon remains thus capturing all the cells in the hexagonal mesh. As we see in the above image the 2 types that remain are rock and fire, and if we go through the overpowering structure then we would know that in time the rock type will overpower the fire type resulting in complete capture of all grids shown in the image below. I have named this pattern as **Dominance** pattern.
 
 ![endgame4](https://github.com/user-attachments/assets/189938db-f6a6-4f9d-b6c1-7fd9e48e179a)
+
 *Single-type structure resulting in unchanging stable patterns*  
 
 
